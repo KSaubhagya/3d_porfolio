@@ -33,7 +33,7 @@ export const ProjectCard = (project: Project) => {
           alt={project.title}
           width={1000}
           height={1000}
-          className="w-full object-cover"
+          className="rounded-lg"
         />
 
         <div className="p-4">
@@ -61,20 +61,43 @@ export const ProjectCard = (project: Project) => {
             <p className="text-gray-400 mb-6">{project.description}</p>
 
             {/* Image */}
-            <Image
-              src={project.image}
-              alt=""
-              width={1000}
-              height={500}
-              className="rounded-lg mb-6"
-            />
+            <div className="grid md:grid-cols-2 gap-6 mb-6">
+              {/* Left: Image */}
+              <div>
+                <Image
+                  src={project.image}
+                  alt=""
+                  width={400}
+                  height={200}
+                  className="rounded-lg w-full"
+                />
+              </div>
+
+              {/* Right: Technologies & Tools */}
+              <div className="border border-white/10 rounded-lg p-4">
+                <h3 className="text-purple-400 text-sm mb-2">
+                  Technologies & Tools
+                </h3>
+                <br />
+                <div className="flex flex-wrap gap-2">
+                  {project.technologies.map((tech, i) => (
+                    <span
+                      key={i}
+                      className="px-3 py-1 text-xs rounded-full bg-purple-500/20 text-purple-300"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
 
             {/* Top Info Grid */}
             <div className="grid md:grid-cols-2 gap-4 mb-6">
-              <Info label="Project Status" value={project.status} />
+              {/* <Info label="Project Status" value={project.status} /> */}
               <Info label="Duration" value={project.duration} />
               <Info label="Organization" value={project.organization} />
-              <Info label="Category" value={project.category} />
+              {/* <Info label="Category" value={project.category} /> */}
             </div>
 
             {/* Overview */}
@@ -82,20 +105,6 @@ export const ProjectCard = (project: Project) => {
               <p className="text-gray-300 text-sm leading-relaxed">
                 {project.overview}
               </p>
-            </Section>
-
-            {/* Tech */}
-            <Section title="Technologies & Tools">
-              <div className="flex flex-wrap gap-2">
-                {project.technologies.map((tech, i) => (
-                  <span
-                    key={i}
-                    className="px-3 py-1 text-xs rounded-full bg-purple-500/20 text-purple-300"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
             </Section>
 
             {/* Media */}
