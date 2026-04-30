@@ -1,75 +1,101 @@
-import React from "react";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
+'use client';
 
-import "react-vertical-timeline-component/style.min.css";
+import { motion } from 'framer-motion';
+import { useState } from 'react';
 
-import { experiences } from "../../constants";
-import { SectionWrapper } from "../../hoc";
-import { Header } from "../atoms/Header";
-import { TExperience } from "../../types";
-import { config } from "../../constants/config";
+/* ------------------ DATA ------------------ */
+const experiences = [
+  {
+    role: "Associate Software Developer",
+    company: "XYZ Ltd",
+    duration: "2024 - Present",
+    points: [
+      "Built scalable full-stack applications",
+      "Optimized backend APIs and queries",
+      "Improved performance by 40%",
+    ],
+  },
+  {
+    role: "Software Intern",
+    company: "ABC Company",
+    duration: "2023 - 2024",
+    points: [
+      "Developed responsive UI components",
+      "Worked with REST APIs",
+      "Collaborated in Agile team",
+    ],
+  },
+];
 
-const ExperienceCard: React.FC<TExperience> = (experience) => {
+/* ------------------ CARD ------------------ */
+const ExperienceCard = ({ exp }: { exp: typeof experiences[0] }) => {
+  const [rotate, setRotate] = useState({ x: 0, y: 0 });
+
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+
+    const rotateX = ((y / rect.height) - 0.5) * -10;
+    const rotateY = ((x / rect.width) - 0.5) * 10;
+
+    setRotate({ x: rotateX, y: rotateY });
+  };
+
+  const reset = () => setRotate({ x: 0, y: 0 });
+
   return (
-    <VerticalTimelineElement
-      contentStyle={{
-        background: "#1d1836",
-        color: "#fff",
+    <motion.div
+      onMouseMove={handleMouseMove}
+      onMouseLeave={reset}
+      style={{
+        transform: `perspective(1000px) rotateX(${rotate.x}deg) rotateY(${rotate.y}deg)`
       }}
-      contentArrowStyle={{ borderRight: "7px solid  #232631" }}
-      date={experience.date}
-      iconStyle={{ background: experience.iconBg }}
-      icon={
-        <div className="flex h-full w-full items-center justify-center">
-          <img
-            src={experience.icon}
-            alt={experience.companyName}
-            className="h-[60%] w-[60%] object-contain"
-          />
-        </div>
-      }
+      className="bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-6 shadow-xl transition-transform duration-200"
     >
-      <div>
-        <h3 className="text-[24px] font-bold text-white">{experience.title}</h3>
-        <p
-          className="text-secondary text-[16px] font-semibold"
-          style={{ margin: 0 }}
-        >
-          {experience.companyName}
-        </p>
-      </div>
+      <h3 className="text-white text-xl font-semibold">
+        {exp.role}
+      </h3>
 
-      <ul className="ml-5 mt-5 list-disc space-y-2">
-        {experience.points.map((point, index) => (
-          <li
-            key={`experience-point-${index}`}
-            className="text-white-100 pl-1 text-[14px] tracking-wider"
-          >
-            {point}
+      <p className="text-purple-300 text-sm mt-1">
+        {exp.company}
+      </p>
+
+      <p className="text-gray-400 text-xs mt-1 mb-4">
+        {exp.duration}
+      </p>
+
+      <ul className="space-y-2">
+        {exp.points.map((p, i) => (
+          <li key={i} className="text-gray-300 text-sm">
+            • {p}
           </li>
         ))}
       </ul>
-    </VerticalTimelineElement>
+    </motion.div>
   );
 };
 
-const Experience = () => {
+/* ------------------ MAIN ------------------ */
+export default function Experience() {
   return (
-    <>
-      <Header useMotion={true} {...config.sections.experience} />
+    <section className="relative py-20 px-6 md:px-20 bg-[#050816] overflow-hidden">
 
-      <div className="mt-20 flex flex-col">
-        <VerticalTimeline>
-          {experiences.map((experience, index) => (
-            <ExperienceCard key={index} {...experience} />
-          ))}
-        </VerticalTimeline>
+      {/* Background glow */}
+      <div className="absolute top-[-100px] left-1/2 w-[500px] h-[500px] bg-purple-500/10 blur-[120px] -translate-x-1/2" />
+
+      {/* Title */}
+      <div className="text-center mb-16 relative z-10">
+        <p className="text-gray-400 text-sm">Where I’ve worked</p>
+        <h2 className="text-white text-4xl font-bold">Experience</h2>
       </div>
-    </>
-  );
-};
 
-export default SectionWrapper(Experience, "work");
+      {/* Grid */}
+      <div className="grid md:grid-cols-2 gap-10 relative z-10">
+        {experiences.map((exp, i) => (
+          <ExperienceCard key={i} exp={exp} />
+        ))}
+      </div>
+    </section>
+  );
+}
