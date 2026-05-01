@@ -164,15 +164,13 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "ML in Pathogenicity",
+    title: "Personalized Learning System for Students with ADHD",
     description:
-      "Comprehensive research review on ML/DL approaches for predicting genomic variant pathogenicity.",
-    image: "/projects/project-1.png",
+      "Developed a system that delivers adaptive learning content to align with cognitive needs and unique learning patterns of ADHD user profiles, improving learner engagement. Incorporated user profiling and dynamic content adaptation to personalize the learning experience",
+    image: "/projects/blog1111.png",
 
-    status: "Completed",
-    duration: "Level 3 · Independent Study",
     organization: "University of Moratuwa",
-    category: "Research / Bioinformatics",
+    category: "Level 3 · Individual Research Project",
 
     overview:
       "This systematic review examines the evolution of machine learning approaches for genomic variant pathogenicity prediction...",

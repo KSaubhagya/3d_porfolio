@@ -81,7 +81,7 @@ export const Skills = () => {
       </div> */}
 
       <div className="w-full h-full absolute">
-        <div className="w-full h-full z-[-10] opacity-30 absolute flex items-center justify-center bg-cover">
+        <div className="w-full h-full z-[-10] opacity-90 absolute flex items-center justify-center bg-cover">
           <video
             className="w-full h-auto"
             preload="false"
@@ -90,7 +90,7 @@ export const Skills = () => {
             muted
             autoPlay
           >
-            <source src="/videos/skills-bg.webm" type="video/webm" />
+            <source src="/videos/encryption-bg.webm" type="video/webm" />
           </video>
         </div>
       </div>

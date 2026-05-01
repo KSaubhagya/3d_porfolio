@@ -8,8 +8,6 @@ type Project = {
   description: string;
   image: string;
 
-  status: string;
-  duration: string;
   organization: string;
   category: string;
 
@@ -55,13 +53,12 @@ export const ProjectCard = (project: Project) => {
             </button>
 
             {/* Title */}
-            <h2 className="text-3xl font-bold text-white mb-2">
+            <h2 className="text-2xl font-bold text-white mb-2 text-center">
               {project.title}
             </h2>
-            <p className="text-gray-400 mb-6">{project.description}</p>
 
             {/* Image */}
-            <div className="grid md:grid-cols-2 gap-6 mb-6">
+            <div className="grid md:grid-cols-2 gap-6 mb-6 w-full h-[220px] overflow-hidden">
               {/* Left: Image */}
               <div>
                 <Image
@@ -69,7 +66,7 @@ export const ProjectCard = (project: Project) => {
                   alt=""
                   width={400}
                   height={200}
-                  className="rounded-lg w-full"
+                  className="rounded-lg "
                 />
               </div>
 
@@ -94,21 +91,22 @@ export const ProjectCard = (project: Project) => {
 
             {/* Top Info Grid */}
             <div className="grid md:grid-cols-2 gap-4 mb-6">
-              {/* <Info label="Project Status" value={project.status} /> */}
-              <Info label="Duration" value={project.duration} />
               <Info label="Organization" value={project.organization} />
-              {/* <Info label="Category" value={project.category} /> */}
+              <Info label="Category" value={project.category} />
             </div>
 
             {/* Overview */}
             <Section title="Project Overview">
+              <p className="text-gray-300 text-sm leading-relaxed mb-4">
+                {project.description}
+              </p>
               <p className="text-gray-300 text-sm leading-relaxed">
                 {project.overview}
               </p>
             </Section>
 
             {/* Media */}
-            <Section title="Media">
+            <Section title="Link">
               {project.media.map((m, i) => (
                 <a
                   key={i}

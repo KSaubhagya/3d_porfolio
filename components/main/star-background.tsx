@@ -35,7 +35,7 @@ export const StarBackground = (props: PointsInstancesProps) => {
         <PointMaterial
           transparent
           color="#fff"
-          size={0.002}
+          size={0.004}
           sizeAttenuation
           depthWrite={false}
         />
