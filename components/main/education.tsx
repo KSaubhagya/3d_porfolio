@@ -16,27 +16,27 @@ const data: TimelineItem[] = [
     title: "B.Sc. (Hons.) in Information Technology and Management",
     institution: "University of Moratuwa",
     date: "2022–Present",
-    icon: "../skills/figma.png", // replace with your asset
+    icon: "../skills/uomlogo.png",
   },
   {
     title: "G.C.E Advanced Level Examination",
     institution: "Maliyadeva Girls' College",
     date: "2020",
     extra: "ICT, Statistics, French",
-    icon: "/school.png",
+    icon: "../skills/schlogo.png",
   },
   {
     title: "G.C.E Ordinary Level Examination",
     institution: "Maliyadeva Girls' College",
     date: "2018 - A",
     extra: "2017 - 9 As",
-    icon: "/school.png",
+    icon: "../skills/schlogo.png",
   },
 ];
 
 export default function Education() {
   return (
-    <section className="bg-[#050816] py-16 px-6 md:px-20">
+    <section className="bg-transparent py-16 px-6 md:px-20">
       <motion.div
         variants={slideInFromLeft(0.5)}
         className="text-[30px] text-white font-medium mt-[10px] text-center mb-[15px]"
@@ -52,17 +52,17 @@ export default function Education() {
           {data.map((item, index) => (
             <div key={index} className="relative flex items-start gap-6">
               {/* Icon */}
-              <div className="relative z-10 flex items-center justify-center w-14 h-14 rounded-full bg-white">
+              <div className="relative z-10 flex items-center justify-center w-14 h-14 rounded-full bg-white overflow-hidden">
                 <img
                   src={item.icon}
                   alt=""
-                  className="w-10 h-10 object-contain"
+                  className="w-11 h-11 object-contain"
                 />
               </div>
 
               {/* Content */}
               <div className="flex flex-col">
-                <h3 className="text-white text-xl md:text-2xl font-semibold tracking-wide">
+                <h3 className="text-white text-base md:text-lg font-semibold tracking-wide">
                   {item.title}
                 </h3>
 
