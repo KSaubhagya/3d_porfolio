@@ -1,34 +1,26 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import { useState } from 'react';
+import { motion } from "framer-motion";
+import { useState } from "react";
 
 /* ------------------ DATA ------------------ */
 const experiences = [
   {
-    role: "Associate Software Developer",
-    company: "XYZ Ltd",
-    duration: "2024 - Present",
+    role: "Software Engineer Intern",
+    company: "WSO2 Pvt Ltd",
+    duration: "02/2025 - 08/2025",
     points: [
-      "Built scalable full-stack applications",
-      "Optimized backend APIs and queries",
-      "Improved performance by 40%",
-    ],
-  },
-  {
-    role: "Software Intern",
-    company: "ABC Company",
-    duration: "2023 - 2024",
-    points: [
-      "Developed responsive UI components",
-      "Worked with REST APIs",
-      "Collaborated in Agile team",
+      "Engineered “Net Insights” analytics application analyzing network log datasets and producing real-time occupancy intelligence, documented system requirements, workflows, and API integrations for streamlined data processing.",
+      "Automated data extraction and classification pipelines, reducing the reporting latency.",
+      "Integrated Ballerina microservices, custom APIs and Asgardeo identity management for leadership analysis.",
+      "Tested and deployed the application in the production environment with role-based access control for senior management.",
+      "Strengthened skills in planning, prioritizing, time management, cross-functional and effective communication",
     ],
   },
 ];
 
 /* ------------------ CARD ------------------ */
-const ExperienceCard = ({ exp }: { exp: typeof experiences[0] }) => {
+const ExperienceCard = ({ exp }: { exp: (typeof experiences)[0] }) => {
   const [rotate, setRotate] = useState({ x: 0, y: 0 });
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
@@ -36,8 +28,8 @@ const ExperienceCard = ({ exp }: { exp: typeof experiences[0] }) => {
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;
 
-    const rotateX = ((y / rect.height) - 0.5) * -10;
-    const rotateY = ((x / rect.width) - 0.5) * 10;
+    const rotateX = (y / rect.height - 0.5) * -10;
+    const rotateY = (x / rect.width - 0.5) * 10;
 
     setRotate({ x: rotateX, y: rotateY });
   };
@@ -49,25 +41,22 @@ const ExperienceCard = ({ exp }: { exp: typeof experiences[0] }) => {
       onMouseMove={handleMouseMove}
       onMouseLeave={reset}
       style={{
-        transform: `perspective(1000px) rotateX(${rotate.x}deg) rotateY(${rotate.y}deg)`
+        transform: `perspective(1000px) rotateX(${rotate.x}deg) rotateY(${rotate.y}deg)`,
       }}
       className="bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-6 shadow-xl transition-transform duration-200"
     >
       <h3 className="text-white text-xl font-semibold">
-        {exp.role}
+        {exp.role} |{" "}
+        <span className="text-purple-300 text-xl font-semibold">
+          {exp.company}
+        </span>
       </h3>
 
-      <p className="text-purple-300 text-sm mt-1">
-        {exp.company}
-      </p>
-
-      <p className="text-gray-400 text-xs mt-1 mb-4">
-        {exp.duration}
-      </p>
+      <p className="text-gray-400 text-xs mt-1 mb-4">{exp.duration}</p>
 
       <ul className="space-y-2">
         {exp.points.map((p, i) => (
-          <li key={i} className="text-gray-300 text-sm">
+          <li key={i} className="text-gray-300 text-sm text-justify">
             • {p}
           </li>
         ))}
@@ -80,7 +69,6 @@ const ExperienceCard = ({ exp }: { exp: typeof experiences[0] }) => {
 export default function Experience() {
   return (
     <section className="relative py-20 px-6 md:px-20 bg-[#050816] overflow-hidden">
-
       {/* Background glow */}
       <div className="absolute top-[-100px] left-1/2 w-[500px] h-[500px] bg-purple-500/10 blur-[120px] -translate-x-1/2" />
 
@@ -95,6 +83,15 @@ export default function Experience() {
         {experiences.map((exp, i) => (
           <ExperienceCard key={i} exp={exp} />
         ))}
+
+        {/* 👇 NEW IMAGE CARD (second slot) */}
+        <div className="bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-2 shadow-xl">
+          <img
+            src="/projects/experience.jpg"
+            alt="experience visual"
+            className="w-full h-full object-cover rounded-xl"
+          />
+        </div>
       </div>
     </section>
   );
