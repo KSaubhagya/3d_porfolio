@@ -188,15 +188,13 @@ export const PROJECTS = [
     ],
   },
   {
-    title: "ML in Genomic ",
+    title: "Digital Question Paper Management System ",
     description:
-      "Comprehensive research review on ML/DL approaches for predicting genomic variant pathogenicity.",
-    image:"/projects/project-2.png",
+      "Built an automated exam-prep platform enabling dynamic question generation and performance analytics for competitive exams, reducing preparation time. Designed and developed key modules for question management and user performance tracking.",
+    image:"/projects/blog13.png",
 
-    status: "Completed",
-    duration: "Level 3 · Independent Study",
     organization: "University of Moratuwa",
-    category: "Research / Bioinformatics",
+    category: "Level 2 · Industry based project",
 
     overview:
       "This systematic review examines the evolution of machine learning approaches for genomic variant pathogenicity prediction...",
@@ -214,13 +212,11 @@ export const PROJECTS = [
     ],
   },
  {
-    title: "ML in ",
+    title: "Net Insights Application ",
     description:
-      "Comprehensive research review on ML/DL approaches for predicting genomic variant pathogenicity.",
+      "Developed a full-stack application that analyzes employee network logs to gain insights and real-time floor counts for leadership groups, reducing reporting latency by 50%. Designed and integrated scalable microservices and APIs to ensure efficient data processing and system performance.",
     image:"/projects/project-3.png",
 
-    status: "Completed",
-    duration: "Level 3 · Independent Study",
     organization: "University of Moratuwa",
     category: "Research / Bioinformatics",
 
@@ -239,6 +235,151 @@ export const PROJECTS = [
       { label: "Review Paper", link: "#" }
     ],
   },
+  {
+    title: "Smart Laundry Expert System ",
+    description:
+      "Developed an expert system for domestic laundry care recommendations using rule-based reasoning and logical inference. Implemented decision rules to provide accurate washing instructions based on fabric type and conditions",
+    image:"/projects/project-3.png",
+
+    organization: "University of Moratuwa",
+    category: "Research / Bioinformatics",
+
+    overview:
+      "This systematic review examines the evolution of machine learning approaches for genomic variant pathogenicity prediction...",
+
+    technologies: [
+      "Machine Learning",
+      "Deep Learning",
+      "Graph Neural Networks (GNN)",
+      "Protein Language Models (PLM)",
+      "Explainable AI (XAI)",
+    ],
+
+    media: [
+      { label: "Review Paper", link: "#" }
+    ],
+  },
+   {
+    title: "BeFit: Fitness Tracker Application",
+    description:
+      "Implemented a responsive mobile application that tracks fitness habits and challenges. Designed an intuitive user interface to enhance usability and encourage consistent user engagement with seamless features",
+    image:"/projects/project-3.png",
+
+    organization: "University of Moratuwa",
+    category: "Research / Bioinformatics",
+
+    overview:
+      "This systematic review examines the evolution of machine learning approaches for genomic variant pathogenicity prediction...",
+
+    technologies: [
+      "Machine Learning",
+      "Deep Learning",
+      "Graph Neural Networks (GNN)",
+      "Protein Language Models (PLM)",
+      "Explainable AI (XAI)",
+    ],
+
+    media: [
+      { label: "Review Paper", link: "#" }
+    ],
+  },
+   {
+    title: "Online Shopping System",
+    description:
+      "Collaborated on a full-stack, fully functional e-commerce platform. Contributed to building RESTful APIs and integrating frontend components with backend services for seamless user experience",
+    image:"/projects/project-3.png",
+
+    organization: "University of Moratuwa",
+    category: "Research / Bioinformatics",
+
+    overview:
+      "This systematic review examines the evolution of machine learning approaches for genomic variant pathogenicity prediction...",
+
+    technologies: [
+      "Machine Learning",
+      "Deep Learning",
+      "Graph Neural Networks (GNN)",
+      "Protein Language Models (PLM)",
+      "Explainable AI (XAI)",
+    ],
+
+    media: [
+      { label: "Review Paper", link: "#" }
+    ],
+  },
+  {
+    title: "Employee Feedback Management System",
+    description:
+      "Engineered a full-stack web application developed with React and Ballerina to simplify the collection, storage, and management of employee feedback for team leads. The system was designed to demonstrate scalable API design, seamless frontend-backend integration, and robust data handling with a relational database.",
+    image:"/projects/project-3.png",
+
+    organization: "University of Moratuwa",
+    category: "Research / Bioinformatics",
+
+    overview:
+      "This systematic review examines the evolution of machine learning approaches for genomic variant pathogenicity prediction...",
+
+    technologies: [
+      "Machine Learning",
+      "Deep Learning",
+      "Graph Neural Networks (GNN)",
+      "Protein Language Models (PLM)",
+      "Explainable AI (XAI)",
+    ],
+
+    media: [
+      { label: "Review Paper", link: "#" }
+    ],
+  },
+   {
+    title: "Academic Course & Module Management System",
+    description:
+      "Developed a Laravel-based web application designed to streamline academic workflows by providing structured course and module management with strict role-based permissions. The platform enforces controlled publishing rules, ensuring both flexibility for academic staff and accountability in curriculum governance.",
+    image:"/projects/project-3.png",
+
+    organization: "University of Moratuwa",
+    category: "Research / Bioinformatics",
+
+    overview:
+      "This systematic review examines the evolution of machine learning approaches for genomic variant pathogenicity prediction...",
+
+    technologies: [
+      "Machine Learning",
+      "Deep Learning",
+      "Graph Neural Networks (GNN)",
+      "Protein Language Models (PLM)",
+      "Explainable AI (XAI)",
+    ],
+
+    media: [
+      { label: "Review Paper", link: "#" }
+    ],
+  },
+  {
+    title: "Automatic Recycled Paper Board Making System",
+    description:
+      "Collaborated on a recycling system that interfaces an Arduino Mega 2560 to recycle waste paper into reusable paper boards with specific sizes, alongside with sensors such as HC-SR04 ultrasonic sensor, DS18B20 temperature sensor, IR sensor and relay modules designed for seamless operation.",
+    image:"/projects/project-3.png",
+
+    organization: "University of Moratuwa",
+    category: "Research / Bioinformatics",
+
+    overview:
+      "This systematic review examines the evolution of machine learning approaches for genomic variant pathogenicity prediction...",
+
+    technologies: [
+      "Machine Learning",
+      "Deep Learning",
+      "Graph Neural Networks (GNN)",
+      "Protein Language Models (PLM)",
+      "Explainable AI (XAI)",
+    ],
+
+    media: [
+      { label: "Review Paper", link: "#" }
+    ],
+  },
+   
 ];
 
 export const CERTIFICATIONS = [
