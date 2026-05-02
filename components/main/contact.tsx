@@ -44,7 +44,7 @@ export default function Contact() {
         <div className="md:col-span-2 flex justify-end">
           <button
             type="submit"
-            className="relative px-6 py-2 rounded-lg bg-purple-600/30 font-medium overflow-hidden group"
+            className="relative px-6 py-2 rounded-lg bg-purple-600/20 font-medium overflow-hidden group"
           >
             <span className="relative z-10">Send Message</span>
             <div className="absolute inset-0 bg-white/10 opacity-0" />
