@@ -3,7 +3,7 @@ import { JSX, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import { LINKS, NAV_LINKS, SOCIALS } from "@/constants";
+import { NAV_LINKS, SOCIALS } from "@/constants";
 
 const NAV_ICONS: Record<string, JSX.Element> = {
   "About me": (
@@ -100,28 +100,6 @@ export const Navbar = () => {
               />
             </Link>
           ))}
-
-          {/* Source Code */}
-          <Link
-            href={LINKS.sourceCode}
-            target="_blank"
-            rel="noreferrer noopener"
-            className="group flex flex-col items-center px-3 py-1 rounded-lg transition-all duration-200 hover:bg-[rgba(113,47,255,0.12)] ml-1"
-          >
-            <svg
-              width="18"
-              height="18"
-              viewBox="0 0 24 24"
-              className="mb-1"
-              style={{ fill: "rgba(180,160,255,0.6)" }}
-            >
-              {NAV_ICONS["Source Code"]}
-            </svg>
-            <span
-              className="block h-[1.5px] w-0 group-hover:w-full rounded-full transition-all duration-300"
-              style={{ background: "rgba(113,47,255,0.7)", marginTop: 2 }}
-            />
-          </Link>
         </div>
       </div>
 
@@ -158,23 +136,6 @@ export const Navbar = () => {
               </span>
             </Link>
           ))}
-
-          <Link
-            href={LINKS.sourceCode}
-            target="_blank"
-            rel="noreferrer noopener"
-            onClick={() => setIsMobileMenuOpen(false)}
-            className="flex items-center gap-3 px-4 py-2 rounded-xl w-48 transition-all duration-200 hover:bg-[rgba(113,47,255,0.15)]"
-          >
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              style={{ fill: "rgba(180,160,255,0.7)" }}
-            >
-              {NAV_ICONS["Source Code"]}
-            </svg>
-          </Link>
 
           <div className="flex gap-5 mt-2">
             {SOCIALS.map(({ link, name, icon: Icon }) => (
