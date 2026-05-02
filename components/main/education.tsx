@@ -36,7 +36,7 @@ const data: TimelineItem[] = [
 
 export default function Education() {
   return (
-    <section className="bg-transparent py-16 px-6 md:px-20">
+    <section id="education" className="bg-transparent py-16 px-6 md:px-20">
       <motion.div
         variants={slideInFromLeft(0.5)}
         className="text-[30px] text-white font-medium mt-[10px] text-center mb-[15px]"

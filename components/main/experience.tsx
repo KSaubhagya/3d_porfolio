@@ -68,7 +68,10 @@ const ExperienceCard = ({ exp }: { exp: (typeof experiences)[0] }) => {
 /* ------------------ MAIN ------------------ */
 export default function Experience() {
   return (
-    <section className="relative py-20 px-6 md:px-20 bg-transparent overflow-hidden">
+    <section
+      id="experience"
+      className="relative py-20 px-6 md:px-20 bg-transparent overflow-hidden"
+    >
       {/* Background glow */}
       <div className="absolute top-[-100px] left-1/2 w-[500px] h-[500px] bg-purple-500/10 blur-[120px] -translate-x-1/2" />
 
