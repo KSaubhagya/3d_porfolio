@@ -56,6 +56,30 @@ export const HeroContent = () => {
 
       <motion.div
         variants={slideInFromRight(0.8)}
+        className="w-full h-full flex justify-center items-center relative"
+      >
+        {/* Base image */}
+        <Image
+          src="/hero-bg.svg"
+          alt="work icons"
+          height={650}
+          width={650}
+          draggable={false}
+          className="select-none"
+        />
+
+        {/* Overlay image */}
+        <Image
+          src="/overlay.png"
+          alt="overlay"
+          width={500}
+          height={500}
+          className="absolute top-10 right-10"
+        />
+      </motion.div>
+
+      {/* <motion.div
+        variants={slideInFromRight(0.8)}
         className="w-full h-full flex justify-center items-center"
       >
         <Image
@@ -66,7 +90,7 @@ export const HeroContent = () => {
           draggable={false}
           className="select-none"
         />
-      </motion.div>
+      </motion.div> */}
     </motion.div>
   );
 };
