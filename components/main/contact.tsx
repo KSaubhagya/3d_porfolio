@@ -4,15 +4,15 @@ import { MapPin, Phone, Mail } from "lucide-react";
 
 export default function Contact() {
   return (
-    <section className="relative bg-[#050816] py-20 px-6 md:px-20 text-white overflow-hidden">
-      <div className="absolute -top-32 left-1/2 w-[500px] h-[500px] bg-purple-600/30 blur-[150px] -translate-x-1/2" />
-      <div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-cyan-500/20 blur-[120px]" />
+    <section className="relative bg-transparent py-20 px-6 md:px-20 text-white overflow-hidden">
+      <div className="absolute -top-32 left-1/2 w-[500px] h-[500px] bg-purple-600/10 blur-[150px] -translate-x-1/2" />
+      <div className="absolute bottom-0 right-0 w-[400px] h-[400px] blur-[120px]" />
 
       {/* Title */}
       <div className="text-center mb-16 relative z-10">
         <p className="text-gray-400 text-sm tracking-widest">CONTACT ME</p>
         <h2 className="text-4xl font-bold mt-2">Get In Touch</h2>
-        <div className="w-16 h-[2px] bg-gradient-to-r from-purple-500 to-cyan-500 mx-auto mt-4" />
+        <div className="w-16 h-[2px] bg-gradient-to-r from-purple-600/10 to-purple-600/20 mx-auto mt-4" />
       </div>
 
       {/* Info Cards */}
@@ -44,10 +44,10 @@ export default function Contact() {
         <div className="md:col-span-2 flex justify-end">
           <button
             type="submit"
-            className="relative px-6 py-2 rounded-lg bg-gradient-to-r from-purple-600 to-cyan-500 font-medium overflow-hidden group"
+            className="relative px-6 py-2 rounded-lg bg-purple-600/30 font-medium overflow-hidden group"
           >
             <span className="relative z-10">Send Message</span>
-            <div className="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition" />
+            <div className="absolute inset-0 bg-white/10 opacity-0" />
           </button>
         </div>
       </form>
