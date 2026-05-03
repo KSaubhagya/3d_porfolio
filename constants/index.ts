@@ -11,62 +11,92 @@ export const SKILL_DATA = [
   {
     skill_name: "HTML",
     image: "html.png",
-    width: 80,
-    height: 80,
+    width: 50,
+    height: 50,
   },
   {
     skill_name: "CSS",
     image: "css.png",
-    width: 80,
-    height: 80,
+    width: 50,
+    height: 50,
+  },
+  {
+    skill_name: "Java",
+    image: "java.png",
+    width: 40,
+    height: 40,
   },
   {
     skill_name: "JavaScript",
     image: "js.png",
-    width: 65,
-    height: 65,
+    width: 40,
+    height: 40,
+  },
+  {
+    skill_name: "Python",
+    image: "python.png",
+    width: 40,
+    height: 40,
+  },
+  {
+    skill_name: "C",
+    image: "c.png",
+    width: 40,
+    height: 40,
   },
   {
     skill_name: "Tailwind CSS",
     image: "tailwind.png",
-    width: 80,
-    height: 80,
+    width: 50,
+    height: 50,
   },
   {
     skill_name: "React",
     image: "react.png",
-    width: 80,
-    height: 80,
+    width: 50,
+    height: 50,
   },
   {
     skill_name: "Redux",
     image: "redux.png",
-    width: 80,
-    height: 80,
+    width: 50,
+    height: 50,
+  },
+  {
+    skill_name: "Ballerina",
+    image: "ballerina.jpg",
+    width: 40,
+    height: 40,
   },
   {
     skill_name: "TypeScript",
     image: "ts.png",
-    width: 80,
-    height: 80,
+    width: 50,
+    height: 50,
   },
   {
     skill_name: "Next.js 14",
     image: "next.png",
-    width: 80,
-    height: 80,
+    width: 50,
+    height: 50,
   },
   {
     skill_name: "Node.js",
     image: "node.png",
-    width: 80,
-    height: 80,
+    width: 50,
+    height: 50,
+  },
+  {
+    skill_name: "Bootstrap",
+    image: "bootstrap.png",
+    width: 40,
+    height: 40,
   },
   {
     skill_name: "MongoDB",
     image: "mongodb.png",
-    width: 40,
-    height: 40,
+    width: 30,
+    height: 30,
   },
 ] as const;
 
@@ -96,32 +126,50 @@ export const BACKEND_SKILL = [
   {
     skill_name: "PostgreSQL",
     image: "postgresql.png",
-    width: 70,
-    height: 70,
+    width: 50,
+    height: 50,
   },
   {
     skill_name: "MySQL",
     image: "mysql.png",
-    width: 70,
-    height: 70,
+    width: 50,
+    height: 50,
   },
   {
     skill_name: "Graphql",
     image: "graphql.png",
-    width: 80,
-    height: 80,
+    width: 50,
+    height: 50,
+  },
+   {
+    skill_name: "Laravel",
+    image: "laravel.png",
+    width: 40,
+    height: 40,
   },
   {
     skill_name: "Docker",
     image: "docker.png",
-    width: 70,
-    height: 70,
+    width: 50,
+    height: 50,
   },
    {
     skill_name: "Figma",
     image: "figma.png",
-    width: 50,
-    height: 50,
+    width: 30,
+    height: 30,
+  },
+  {
+    skill_name: "FastAPI",
+    image: "fastapi.jpg",
+    width: 40,
+    height: 40,
+  },
+  {
+    skill_name: "Angular",
+    image: "angular.png",
+    width: 40,
+    height: 40,
   },
 ] as const;
 
@@ -406,69 +454,6 @@ export const CERTIFICATIONS = [
   },
 ];
 
-
-export const FOOTER_DATA = [
-  {
-    title: "Community",
-    data: [
-      {
-        name: "YouTube",
-        icon: FaYoutube,
-        link: "https://youtube.com",
-      },
-      {
-        name: "GitHub",
-        icon: RxGithubLogo,
-        link: "https://github.com",
-      },
-      {
-        name: "Discord",
-        icon: RxDiscordLogo,
-        link: "https://discord.com",
-      },
-    ],
-  },
-  {
-    title: "Social Media",
-    data: [
-      {
-        name: "Instagram",
-        icon: RxInstagramLogo,
-        link: "https://instagram.com",
-      },
-      {
-        name: "Twitter",
-        icon: RxTwitterLogo,
-        link: "https://x.com/_sanidhyy",
-      },
-      {
-        name: "Linkedin",
-        icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
-      },
-    ],
-  },
-  {
-    title: "About",
-    data: [
-      {
-        name: "Become Sponsor",
-        icon: null,
-        link: "https://youtube.com",
-      },
-      {
-        name: "Learning about me",
-        icon: null,
-        link: "https://example.com",
-      },
-      {
-        name: "Contact Me",
-        icon: null,
-        link: "mailto:contact@example.com",
-      },
-    ],
-  },
-] as const;
 
 export const NAV_LINKS = [
   {
