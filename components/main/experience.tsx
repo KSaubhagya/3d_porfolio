@@ -53,6 +53,7 @@ const ExperienceCard = ({ exp }: { exp: (typeof experiences)[0] }) => {
       </h3>
 
       <p className="text-gray-400 text-xs mt-1 mb-4">{exp.duration}</p>
+      <br />
 
       <ul className="space-y-2">
         {exp.points.map((p, i) => (
