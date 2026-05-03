@@ -153,6 +153,12 @@ export const BACKEND_SKILL = [
     width: 50,
     height: 50,
   },
+  {
+    skill_name: "Choreo",
+    image: "choreo.png",
+    width: 40,
+    height: 40,
+  },
    {
     skill_name: "Figma",
     image: "figma.png",
@@ -168,6 +174,12 @@ export const BACKEND_SKILL = [
   {
     skill_name: "Angular",
     image: "angular.png",
+    width: 40,
+    height: 40,
+  },
+   {
+    skill_name: "Blender",
+    image: "blender.png",
     width: 40,
     height: 40,
   },
