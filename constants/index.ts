@@ -156,8 +156,8 @@ export const BACKEND_SKILL = [
   {
     skill_name: "Choreo",
     image: "choreo.png",
-    width: 40,
-    height: 40,
+    width: 50,
+    height: 50,
   },
    {
     skill_name: "Figma",
@@ -185,42 +185,6 @@ export const BACKEND_SKILL = [
   },
 ] as const;
 
-export const FULLSTACK_SKILL = [
-  // {
-  //   skill_name: "React Native",
-  //   image: "reactnative.png",
-  //   width: 70,
-  //   height: 70,
-  // },
-  // {
-  //   skill_name: "Tauri",
-  //   image: "tauri.png",
-  //   width: 70,
-  //   height: 70,
-  // },
-  // {
-  //   skill_name: "Docker",
-  //   image: "docker.png",
-  //   width: 70,
-  //   height: 70,
-  // },
-
-  // {
-  //   skill_name: "Figma",
-  //   image: "figma.png",
-  //   width: 50,
-  //   height: 50,
-  // },
-] as const;
-
-export const OTHER_SKILL = [
-  // {
-  //   skill_name: "Go",
-  //   image: "go.png",
-  //   width: 60,
-  //   height: 60,
-  // },
-] as const;
 
 export const PROJECTS = [
   {
@@ -236,15 +200,13 @@ export const PROJECTS = [
       "This systematic review examines the evolution of machine learning approaches for genomic variant pathogenicity prediction...",
 
     technologies: [
-      "Machine Learning",
-      "Deep Learning",
-      "Graph Neural Networks (GNN)",
-      "Protein Language Models (PLM)",
-      "Explainable AI (XAI)",
+      "FastAPI",
+      "MongoDB Atlas",
+      "React.js",
     ],
 
     media: [
-      { label: "Review Paper", link: "#" }
+      { label: "Repo Link", link: "#" }
     ],
   },
   {
@@ -299,7 +261,7 @@ export const PROJECTS = [
     title: "Smart Laundry Expert System ",
     description:
       "Developed an expert system for domestic laundry care recommendations using rule-based reasoning and logical inference. Implemented decision rules to provide accurate washing instructions based on fabric type and conditions",
-    image:"/projects/project-3.png",
+    image:"/projects/blog112.jpeg",
 
     organization: "University of Moratuwa",
     category: "Research / Bioinformatics",
@@ -477,16 +439,24 @@ export const NAV_LINKS = [
     link: "#skills",
   },
    {
-    title: "Education",
-    link: "#education",
-  },
-   {
     title: "Experience",
     link: "#experience",
+  },
+   {
+    title: "Education",
+    link: "#education",
   },
   {
     title: "Projects",
     link: "#projects",
+  },
+   {
+    title: "Certificates",
+    link: "#certificates",
+  },
+  {
+    title: "Contact",
+    link: "#contact",
   },
 ] as const;
 

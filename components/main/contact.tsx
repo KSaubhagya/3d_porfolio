@@ -4,7 +4,10 @@ import { MapPin, Phone, Mail } from "lucide-react";
 
 export default function Contact() {
   return (
-    <section className="relative bg-transparent py-20 px-6 md:px-20 text-white overflow-hidden">
+    <section
+      id="contact"
+      className="relative bg-transparent py-20 px-6 md:px-20 text-white overflow-hidden"
+    >
       <div className="absolute -top-32 left-1/2 w-[500px] h-[500px] bg-purple-600/10 blur-[150px] -translate-x-1/2" />
       <div className="absolute bottom-0 right-0 w-[400px] h-[400px] blur-[120px]" />
 
