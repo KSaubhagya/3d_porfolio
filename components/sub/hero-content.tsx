@@ -70,10 +70,10 @@ export const HeroContent = () => {
 
         {/* Overlay image */}
         <Image
-          src="/profile.png"
+          src="/photo1.png"
           alt="overlay"
-          width={300}
-          height={300}
+          width={200}
+          height={200}
           className="absolute top-10 right-10"
         />
       </motion.div>
