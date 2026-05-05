@@ -443,7 +443,7 @@ export const CERTIFICATIONS = [
   {
     title: "Revolux 3.0 Designathon",
     description:
-      'Hackathon',
+      'Certification',
     image: "/certifications/c1.png",
     link: "https://example.com",
   },
