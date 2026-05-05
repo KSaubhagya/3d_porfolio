@@ -285,7 +285,7 @@ export const PROJECTS = [
     title: "BeFit: Fitness Tracker Application",
     description:
       "Implemented a responsive mobile application that tracks fitness habits and challenges. Designed an intuitive user interface to enhance usability and encourage consistent user engagement with seamless features",
-    image:"/projects/project-3.png",
+    image:"/projects/bfit.png",
 
     organization: "University of Moratuwa",
     category: "Research / Bioinformatics",
@@ -294,7 +294,7 @@ export const PROJECTS = [
       "This systematic review examines the evolution of machine learning approaches for genomic variant pathogenicity prediction...",
 
     technologies: [
-      "Machine Learning",
+      "React Native",
       "Deep Learning",
       "Graph Neural Networks (GNN)",
       "Protein Language Models (PLM)",
@@ -309,7 +309,7 @@ export const PROJECTS = [
     title: "Online Shopping System",
     description:
       "Collaborated on a full-stack, fully functional e-commerce platform. Contributed to building RESTful APIs and integrating frontend components with backend services for seamless user experience",
-    image:"/projects/project-3.png",
+    image:"/projects/blog123.png",
 
     organization: "University of Moratuwa",
     category: "Research / Bioinformatics",
@@ -333,7 +333,7 @@ export const PROJECTS = [
     title: "Employee Feedback Management System",
     description:
       "Engineered a full-stack web application developed with React and Ballerina to simplify the collection, storage, and management of employee feedback for team leads. The system was designed to demonstrate scalable API design, seamless frontend-backend integration, and robust data handling with a relational database.",
-    image:"/projects/project-3.png",
+    image:"/projects/rating.png",
 
     organization: "University of Moratuwa",
     category: "Research / Bioinformatics",
@@ -357,7 +357,7 @@ export const PROJECTS = [
     title: "Academic Course & Module Management System",
     description:
       "Developed a Laravel-based web application designed to streamline academic workflows by providing structured course and module management with strict role-based permissions. The platform enforces controlled publishing rules, ensuring both flexibility for academic staff and accountability in curriculum governance.",
-    image:"/projects/project-3.png",
+    image:"/projects/mm.jpg",
 
     organization: "University of Moratuwa",
     category: "Research / Bioinformatics",
@@ -378,10 +378,10 @@ export const PROJECTS = [
     ],
   },
   {
-    title: "Automatic Recycled Paper Board Making System",
+    title: "3D-Personal Portfolio Website",
     description:
       "Collaborated on a recycling system that interfaces an Arduino Mega 2560 to recycle waste paper into reusable paper boards with specific sizes, alongside with sensors such as HC-SR04 ultrasonic sensor, DS18B20 temperature sensor, IR sensor and relay modules designed for seamless operation.",
-    image:"/projects/project-3.png",
+    image:"/projects/mm.jpg",
 
     organization: "University of Moratuwa",
     category: "Research / Bioinformatics",
@@ -406,24 +406,24 @@ export const PROJECTS = [
 
 export const CERTIFICATIONS = [
    {
-    title: "Modern Next.js 14 Portfolio",
+    title: "MoraXreme 9.0 Hackthon",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
-    image: "/projects/project-1.png",
+      'hackathon',
+    image: "/certifications/c2.png",
     link: "https://example.com",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "HackMoral 6.0 Hackathon",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
-    image: "/projects/project-2.png",
+      'Hackthon.',
+    image: "/certifications/c3.png",
     link: "https://example.com",
   },
   {
-    title: "Space Themed Website",
+    title: "Revolux 3.0 Designathon",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
-    image: "/projects/project-3.png",
+      'Hackathon',
+    image: "/certifications/c1.png",
     link: "https://example.com",
   },
 ];
