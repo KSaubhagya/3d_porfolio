@@ -426,6 +426,27 @@ export const CERTIFICATIONS = [
     image: "/certifications/c1.png",
     link: "https://example.com",
   },
+  {
+    title: "Revolux 3.0 Designathon",
+    description:
+      'Hackathon',
+    image: "/certifications/c1.png",
+    link: "https://example.com",
+  },
+  {
+    title: "Revolux 3.0 Designathon",
+    description:
+      'Hackathon',
+    image: "/certifications/c1.png",
+    link: "https://example.com",
+  },
+  {
+    title: "Revolux 3.0 Designathon",
+    description:
+      'Hackathon',
+    image: "/certifications/c1.png",
+    link: "https://example.com",
+  },
 ];
 
 
