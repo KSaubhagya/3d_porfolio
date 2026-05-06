@@ -256,9 +256,9 @@ export const PROJECTS = [
 
     overview:
       [
-  "This project does X.",
-  "It also does Y.",
-  "Built with scalability in mind."
+  "- Requirements elicitation and functional specification for an automated examination paper generation system.",
+  "- Collaborated to coordinate analysis, implementation, authentication, authorization and system functionality testing",
+  "-Implemented structured workflows that reduced manual exam preparation setup time"
 ],
     technologies: [
       "Laravel PHP",
