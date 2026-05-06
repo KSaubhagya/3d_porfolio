@@ -203,13 +203,41 @@ export const PROJECTS = [
       "FastAPI",
       "MongoDB Atlas",
       "React.js",
+      "Cloudinary",
     ],
 
     media: [
-      { label: "Repo Link", link: "#" }
+      { label: "Repo Link", link: "https://github.com/KSaubhagya/IndividualProject" }
     ],
   },
-  {
+ 
+ {
+    title: "Net Insights Application ",
+    description:
+      "Developed a full-stack application that analyzes employee network logs to gain insights and real-time floor counts for leadership groups, reducing reporting latency by 50%. Designed and integrated scalable microservices and APIs to ensure efficient data processing and system performance.",
+    image:"/projects/project-3.png",
+
+    organization: "University of Moratuwa",
+    category: "Intern Project · WSO2",
+
+    overview:
+      "This systematic review examines the evolution of machine learning approaches for genomic variant pathogenicity prediction...",
+
+    technologies: [
+      "React.js",
+      "REST API",
+      "Ballerina",
+      "Asgardeo",
+      "Choreo",
+      "Graph QL",
+      "Postman",
+    ],
+
+    media: [
+      { label: "-", link: "#" }
+    ],
+  },
+   {
     title: "Digital Question Paper Management System ",
     description:
       "Built an automated exam-prep platform enabling dynamic question generation and performance analytics for competitive exams, reducing preparation time. Designed and developed key modules for question management and user performance tracking.",
@@ -222,63 +250,35 @@ export const PROJECTS = [
       "This systematic review examines the evolution of machine learning approaches for genomic variant pathogenicity prediction...",
 
     technologies: [
-      "Machine Learning",
-      "Deep Learning",
-      "Graph Neural Networks (GNN)",
-      "Protein Language Models (PLM)",
-      "Explainable AI (XAI)",
+      "Laravel PHP",
+      "Laravel Breeze",
+      "Bootstrap",
+      "MySQL",
+      "Figma",
     ],
 
     media: [
-      { label: "Review Paper", link: "#" }
-    ],
-  },
- {
-    title: "Net Insights Application ",
-    description:
-      "Developed a full-stack application that analyzes employee network logs to gain insights and real-time floor counts for leadership groups, reducing reporting latency by 50%. Designed and integrated scalable microservices and APIs to ensure efficient data processing and system performance.",
-    image:"/projects/project-3.png",
-
-    organization: "University of Moratuwa",
-    category: "Research / Bioinformatics",
-
-    overview:
-      "This systematic review examines the evolution of machine learning approaches for genomic variant pathogenicity prediction...",
-
-    technologies: [
-      "Machine Learning",
-      "Deep Learning",
-      "Graph Neural Networks (GNN)",
-      "Protein Language Models (PLM)",
-      "Explainable AI (XAI)",
-    ],
-
-    media: [
-      { label: "Review Paper", link: "#" }
+      { label: "Repo Link", link: "https://bitbucket.org/dqpms/firstrepo/" }
     ],
   },
   {
     title: "Smart Laundry Expert System ",
     description:
       "Developed an expert system for domestic laundry care recommendations using rule-based reasoning and logical inference. Implemented decision rules to provide accurate washing instructions based on fabric type and conditions",
-    image:"/projects/blog112.jpeg",
+    image:"/projects/p3.png",
 
     organization: "University of Moratuwa",
-    category: "Research / Bioinformatics",
+    category: "Level 3 · Individual mini project",
 
     overview:
       "This systematic review examines the evolution of machine learning approaches for genomic variant pathogenicity prediction...",
 
     technologies: [
-      "Machine Learning",
-      "Deep Learning",
-      "Graph Neural Networks (GNN)",
-      "Protein Language Models (PLM)",
-      "Explainable AI (XAI)",
+      "SWI Prolog",
     ],
 
     media: [
-      { label: "Review Paper", link: "#" }
+      { label: "Repo Link", link: "https://github.com/KSaubhagya/smart_laundry_expert" }
     ],
   },
    {
@@ -288,21 +288,18 @@ export const PROJECTS = [
     image:"/projects/bfit.png",
 
     organization: "University of Moratuwa",
-    category: "Research / Bioinformatics",
+    category: "Level 3 · Individual mini project",
 
     overview:
       "This systematic review examines the evolution of machine learning approaches for genomic variant pathogenicity prediction...",
 
     technologies: [
       "React Native",
-      "Deep Learning",
-      "Graph Neural Networks (GNN)",
-      "Protein Language Models (PLM)",
-      "Explainable AI (XAI)",
+      "Context API",
     ],
 
     media: [
-      { label: "Review Paper", link: "#" }
+      { label: "Repo Link", link: "https://github.com/KSaubhagya/Fitness-Tracker" }
     ],
   },
    {
@@ -312,21 +309,20 @@ export const PROJECTS = [
     image:"/projects/blog123.png",
 
     organization: "University of Moratuwa",
-    category: "Research / Bioinformatics",
+    category: "Level 3 · Mini group project",
 
     overview:
       "This systematic review examines the evolution of machine learning approaches for genomic variant pathogenicity prediction...",
 
     technologies: [
-      "Machine Learning",
-      "Deep Learning",
-      "Graph Neural Networks (GNN)",
-      "Protein Language Models (PLM)",
-      "Explainable AI (XAI)",
+      "ReactJS",
+      "REST API",
+      "Express JS",
+      "PostgreSQL",
     ],
 
     media: [
-      { label: "Review Paper", link: "#" }
+      { label: "Repo Link/frontend", link: "https://github.com/Supun-SD/SaxonStore/tree/master/saxonstore-frontend" }
     ],
   },
   {
@@ -336,21 +332,21 @@ export const PROJECTS = [
     image:"/projects/rating.png",
 
     organization: "University of Moratuwa",
-    category: "Research / Bioinformatics",
+    category: "Mini project · WSO2",
 
     overview:
       "This systematic review examines the evolution of machine learning approaches for genomic variant pathogenicity prediction...",
 
     technologies: [
-      "Machine Learning",
-      "Deep Learning",
-      "Graph Neural Networks (GNN)",
-      "Protein Language Models (PLM)",
-      "Explainable AI (XAI)",
+      "Ballerina",
+      "REST API",
+      "React.js",
+      "SQLite",
+      "OpenAPI",
     ],
 
     media: [
-      { label: "Review Paper", link: "#" }
+      { label: "Repo Link", link: "https://github.com/KSaubhagya/Employee-Feedback-MS" }
     ],
   },
    {
@@ -360,45 +356,41 @@ export const PROJECTS = [
     image:"/projects/mm.jpg",
 
     organization: "University of Moratuwa",
-    category: "Research / Bioinformatics",
+    category: "Individual project",
 
     overview:
       "This systematic review examines the evolution of machine learning approaches for genomic variant pathogenicity prediction...",
 
     technologies: [
-      "Machine Learning",
-      "Deep Learning",
-      "Graph Neural Networks (GNN)",
-      "Protein Language Models (PLM)",
-      "Explainable AI (XAI)",
+      "Laravel PHP",
+      "MySQL",
+      "Bootstrap",
     ],
 
     media: [
-      { label: "Review Paper", link: "#" }
+      { label: "Repo Link", link: "https://github.com/KSaubhagya/Module_Management_System" }
     ],
   },
   {
     title: "3D-Personal Portfolio Website",
     description:
-      "Collaborated on a recycling system that interfaces an Arduino Mega 2560 to recycle waste paper into reusable paper boards with specific sizes, alongside with sensors such as HC-SR04 ultrasonic sensor, DS18B20 temperature sensor, IR sensor and relay modules designed for seamless operation.",
+      "Developed a Three.js based 3D portfolio, displaying my work and skills. Implemented interactive 3D elements and smooth animations to create an engaging user experience, showcasing my projects and skills in a visually appealing manner.",
     image:"/projects/mm.jpg",
 
     organization: "University of Moratuwa",
-    category: "Research / Bioinformatics",
+    category: "Individual project",
 
     overview:
       "This systematic review examines the evolution of machine learning approaches for genomic variant pathogenicity prediction...",
 
     technologies: [
-      "Machine Learning",
-      "Deep Learning",
-      "Graph Neural Networks (GNN)",
-      "Protein Language Models (PLM)",
-      "Explainable AI (XAI)",
+      "React.js",
+      "Three.js",
+      "Tailwind CSS",
     ],
 
     media: [
-      { label: "Review Paper", link: "#" }
+      { label: "Repo Link", link: "https://github.com/KSaubhagya/3D-Portfolio-Website" }
     ],
   },
    
@@ -427,24 +419,45 @@ export const CERTIFICATIONS = [
     link: "https://example.com",
   },
   {
-    title: "Revolux 3.0 Designathon",
+    title: "Machine Learning Explainability - Kaggle",
     description:
       'Hackathon',
-    image: "/certifications/c1.png",
+    image: "/certifications/c4.png",
     link: "https://example.com",
   },
   {
-    title: "Revolux 3.0 Designathon",
+    title: "Predictive Modeling Fundamentals I",
     description:
       'Hackathon',
-    image: "/certifications/c1.png",
+    image: "/certifications/c5.png",
     link: "https://example.com",
   },
   {
-    title: "Revolux 3.0 Designathon",
+    title: "Intermediate Machine Learning - Kaggle",
     description:
       'Certification',
-    image: "/certifications/c1.png",
+    image: "/certifications/c6.png",
+    link: "https://example.com",
+  },
+   {
+    title: "Deep Learning with TensorFlow",
+    description:
+      'Hackathon',
+    image: "/certifications/c7.png",
+    link: "https://example.com",
+  },
+  {
+    title: "Create Your Own AI Agent with h2oGPTe",
+    description:
+      'Hackathon',
+    image: "/certifications/c8.png",
+    link: "https://example.com",
+  },
+  {
+    title: "User Experience Design Professional Certification",
+    description:
+      'Certification',
+    image: "/certifications/c9.png",
     link: "https://example.com",
   },
 ];

@@ -88,7 +88,7 @@ export default function Experience() {
           <ExperienceCard key={i} exp={exp} />
         ))}
 
-        {/* 👇 NEW IMAGE CARD (second slot) */}
+        {/* NEW IMAGE CARD (second slot) */}
         <div className="bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-2 shadow-xl">
           <img
             src="/projects/experience.jpg"
