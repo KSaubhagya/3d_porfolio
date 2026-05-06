@@ -11,7 +11,7 @@ type Project = {
   organization: string;
   category: string;
 
-  overview: string;
+  overview: string[];
   technologies: string[];
   media: { label: string; link: string }[];
 };
@@ -104,7 +104,12 @@ export const ProjectCard = (project: Project) => {
                 {project.description}
               </p>
               <p className="text-gray-300 text-sm leading-relaxed">
-                {project.overview}
+                {project.overview.map((item, i) => (
+                  <span key={i}>
+                    {item}
+                    <br />
+                  </span>
+                ))}
               </p>
             </Section>
 

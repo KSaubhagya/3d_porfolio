@@ -197,8 +197,12 @@ export const PROJECTS = [
     category: "Level 3 · Individual Research Project",
 
     overview:
-      "This systematic review examines the evolution of machine learning approaches for genomic variant pathogenicity prediction...",
-
+      [
+  "- Implemented a personalized learning system that adapts content delivery based on behavior and learning patterns",
+  "- Developed modular learning components, customized component layouts focused on clarity, information hierarchy, and cognitive-load reduction, with modeled engagement, cognitive and behavioral features.",
+  "- Improved learner retention by 30% through data-driven UI adjustments and principles for data interpretability",
+  "- Evaluated system performance through structured experimentation, refining model behavior and personalization"
+],
     technologies: [
       "FastAPI",
       "MongoDB Atlas",
@@ -221,8 +225,12 @@ export const PROJECTS = [
     category: "Intern Project · WSO2",
 
     overview:
-      "This systematic review examines the evolution of machine learning approaches for genomic variant pathogenicity prediction...",
-
+      [
+  "-Engineered analyzing network log datasets and producing real-time occupancy intelligence, documented system requirements, workflows for streamlined data processing",
+  "- Architected and delivered an end-to-end production system independently using Ballerina microservices and custom APIs, handling full lifecycle from design to deployment",
+  "- Engineered data pipelines to ingest and unify distributed WiFi log data, enabling real-time employee location queries and floor-wise occupancy aggregation",
+  "- Implemented secure, role-based access control with Asgardeo, exposing restricted search capabilities and operational dashboards for leadership use"
+],
     technologies: [
       "React.js",
       "REST API",
@@ -247,8 +255,11 @@ export const PROJECTS = [
     category: "Level 2 · Industry based project",
 
     overview:
-      "This systematic review examines the evolution of machine learning approaches for genomic variant pathogenicity prediction...",
-
+      [
+  "This project does X.",
+  "It also does Y.",
+  "Built with scalability in mind."
+],
     technologies: [
       "Laravel PHP",
       "Laravel Breeze",
@@ -271,8 +282,11 @@ export const PROJECTS = [
     category: "Level 3 · Individual mini project",
 
     overview:
-      "This systematic review examines the evolution of machine learning approaches for genomic variant pathogenicity prediction...",
-
+      [
+  "This project does X.",
+  "It also does Y.",
+  "Built with scalability in mind."
+],
     technologies: [
       "SWI Prolog",
     ],
@@ -291,8 +305,11 @@ export const PROJECTS = [
     category: "Level 3 · Individual mini project",
 
     overview:
-      "This systematic review examines the evolution of machine learning approaches for genomic variant pathogenicity prediction...",
-
+      [
+  "This project does X.",
+  "It also does Y.",
+  "Built with scalability in mind."
+],
     technologies: [
       "React Native",
       "Context API",
@@ -312,8 +329,11 @@ export const PROJECTS = [
     category: "Level 3 · Mini group project",
 
     overview:
-      "This systematic review examines the evolution of machine learning approaches for genomic variant pathogenicity prediction...",
-
+      [
+  "This project does X.",
+  "It also does Y.",
+  "Built with scalability in mind."
+],
     technologies: [
       "ReactJS",
       "REST API",
@@ -335,8 +355,11 @@ export const PROJECTS = [
     category: "Mini project · WSO2",
 
     overview:
-      "This systematic review examines the evolution of machine learning approaches for genomic variant pathogenicity prediction...",
-
+      [
+  "This project does X.",
+  "It also does Y.",
+  "Built with scalability in mind."
+],
     technologies: [
       "Ballerina",
       "REST API",
@@ -359,8 +382,11 @@ export const PROJECTS = [
     category: "Individual project",
 
     overview:
-      "This systematic review examines the evolution of machine learning approaches for genomic variant pathogenicity prediction...",
-
+      [
+  "This project does X.",
+  "It also does Y.",
+  "Built with scalability in mind."
+],
     technologies: [
       "Laravel PHP",
       "MySQL",
@@ -381,8 +407,11 @@ export const PROJECTS = [
     category: "Individual project",
 
     overview:
-      "This systematic review examines the evolution of machine learning approaches for genomic variant pathogenicity prediction...",
-
+      [
+  "This project does X.",
+  "It also does Y.",
+  "Built with scalability in mind."
+],
     technologies: [
       "React.js",
       "Three.js",
