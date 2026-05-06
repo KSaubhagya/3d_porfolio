@@ -221,7 +221,7 @@ export const PROJECTS = [
       "Developed a full-stack application that analyzes employee network logs to gain insights and real-time floor counts for leadership groups, reducing reporting latency by 50%. Designed and integrated scalable microservices and APIs to ensure efficient data processing and system performance.",
     image:"/projects/project-3.png",
 
-    organization: "University of Moratuwa",
+    organization: "WSO2 Pvt Ltd",
     category: "Intern Project · WSO2",
 
     overview:
@@ -258,7 +258,7 @@ export const PROJECTS = [
       [
   "- Requirements elicitation and functional specification for an automated examination paper generation system.",
   "- Collaborated to coordinate analysis, implementation, authentication, authorization and system functionality testing",
-  "-Implemented structured workflows that reduced manual exam preparation setup time"
+  "- Implemented structured workflows that reduced manual exam preparation setup time"
 ],
     technologies: [
       "Laravel PHP",
@@ -283,9 +283,8 @@ export const PROJECTS = [
 
     overview:
       [
-  "This project does X.",
-  "It also does Y.",
-  "Built with scalability in mind."
+  "- Developed a Prolog-based expert system for smart laundry care, generating recommendations for diverse wash modes, detergents, temperatures and drying scenarios using rule-based reasoning from dynamic user inputs",
+  "- Implemented knowledge representation and logical inference, with an extensible rule base for decision-making"
 ],
     technologies: [
       "SWI Prolog",
@@ -306,9 +305,9 @@ export const PROJECTS = [
 
     overview:
       [
-  "This project does X.",
-  "It also does Y.",
-  "Built with scalability in mind."
+  "- Designed and implemented a mobile application to monitor fitness activities, habits, and challenge completion",
+  "- Focused on modular component design and front-end architecture using modern mobile development practices",
+  "- Developed user-facing features to capture activity data and present progress tracking in an intuitive manner"
 ],
     technologies: [
       "React Native",
@@ -330,9 +329,9 @@ export const PROJECTS = [
 
     overview:
       [
-  "This project does X.",
-  "It also does Y.",
-  "Built with scalability in mind."
+  "- Developed and integrated RESTful APIs using Express.js with a PostgreSQL backend, enabling core e-commerce functionalities including product management, authentication, and order processing.",
+  "- Built responsive frontend components in React and integrated them with backend services to ensure seamless state management and data flow across the application.",
+  "- Collaborated in a team environment to design system architecture, implement end-to-end features, and maintain consistency across API contracts and UI interactions."
 ],
     technologies: [
       "ReactJS",
@@ -351,14 +350,14 @@ export const PROJECTS = [
       "Engineered a full-stack web application developed with React and Ballerina to simplify the collection, storage, and management of employee feedback for team leads. The system was designed to demonstrate scalable API design, seamless frontend-backend integration, and robust data handling with a relational database.",
     image:"/projects/rating.png",
 
-    organization: "University of Moratuwa",
+    organization: "WSO2 Pvt Ltd",
     category: "Mini project · WSO2",
 
     overview:
       [
-  "This project does X.",
-  "It also does Y.",
-  "Built with scalability in mind."
+  "- Engineered a full-stack web application developed with React and Ballerina to simplify the collection, storage, and management of employee feedback for team leads.",
+  "- Designed scalable API architecture and implemented seamless frontend-backend integration.",
+  "- Utilized a relational database for robust data handling and ensured consistency in API contracts and UI interactions."
 ],
     technologies: [
       "Ballerina",
@@ -378,14 +377,14 @@ export const PROJECTS = [
       "Developed a Laravel-based web application designed to streamline academic workflows by providing structured course and module management with strict role-based permissions. The platform enforces controlled publishing rules, ensuring both flexibility for academic staff and accountability in curriculum governance.",
     image:"/projects/mm.jpg",
 
-    organization: "University of Moratuwa",
+    organization: "Individual",
     category: "Individual project",
 
     overview:
       [
-  "This project does X.",
-  "It also does Y.",
-  "Built with scalability in mind."
+  "- Engineered a modular web application using Laravel with a MySQL backend, modeling complex academic entities (courses, modules, users) with optimized relational schemas and ORM-based data access",
+  "- Implemented fine-grained role-based access control (RBAC) and workflow enforcement, enabling controlled content creation, approval, and publishing pipelines for academic governance.",
+  "- Developed responsive UI components with Bootstrap and integrated them with backend logic, ensuring consistent state handling, validation, and secure request processing across the system."
 ],
     technologies: [
       "Laravel PHP",
@@ -400,17 +399,17 @@ export const PROJECTS = [
   {
     title: "3D-Personal Portfolio Website",
     description:
-      "Developed a Three.js based 3D portfolio, displaying my work and skills. Implemented interactive 3D elements and smooth animations to create an engaging user experience, showcasing my projects and skills in a visually appealing manner.",
+      "Developed a Three.js based 3D portfolio, displaying my work and skills. Implemented interactive 3D elements and smooth animations to create an engaging user experience, showcasing my projects and skills in a visually appealing manner with a focus on performance and responsiveness.",
     image:"/projects/mm.jpg",
 
-    organization: "University of Moratuwa",
+    organization: "Individual",
     category: "Individual project",
 
     overview:
       [
-  "This project does X.",
-  "It also does Y.",
-  "Built with scalability in mind."
+  "- Developed a Three.js based 3D portfolio, displaying my work and skills.",
+  "- Implemented interactive 3D elements and smooth animations to create an engaging user experience.",
+  "- Showcased my projects and skills in a visually appealing manner with a focus on performance and responsiveness."
 ],
     technologies: [
       "React.js",
