@@ -39,9 +39,10 @@ export default function Education() {
     <section id="education" className="bg-transparent py-16 px-6 md:px-20">
       <motion.div
         variants={slideInFromLeft(0.5)}
-        className="text-[30px] text-white font-medium mt-[10px] text-center mb-[15px]"
+        className="text-white text-4xl font-bold text-center"
       >
-        Education
+        <p className="text-gray-400 text-sm">Where I’ve learned</p>
+        <h2 className="text-white text-4xl font-bold">Education</h2>
       </motion.div>
       <br />
       <div className="relative max-w-4xl mx-auto">

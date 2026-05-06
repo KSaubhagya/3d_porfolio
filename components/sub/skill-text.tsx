@@ -24,9 +24,12 @@ export const SkillText = () => {
 
       <motion.div
         variants={slideInFromLeft(0.5)}
-        className="text-[30px] text-white font-medium mt-[10px] text-center mb-[15px]"
+        className="text-center mb-16 relative z-10"
       >
-        Skills and Technologies.
+        <p className="text-gray-400 text-sm">What I've learned</p>
+        <h2 className="text-white text-4xl font-bold">
+          Skills and Technologies
+        </h2>
       </motion.div>
 
       {/* <motion.div

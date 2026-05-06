@@ -218,7 +218,7 @@ export const PROJECTS = [
  {
     title: "Net Insights Application ",
     description:
-      "Developed a full-stack application that analyzes employee network logs to gain insights and real-time floor counts for leadership groups, reducing reporting latency by 50%. Designed and integrated scalable microservices and APIs to ensure efficient data processing and system performance.",
+      "Developed a full-stack application that analyzes employee network logs to gain insights and real-time floor counts for leadership groups, reducing reporting latency. Designed and integrated scalable microservices and APIs to ensure efficient data processing and system performance.",
     image:"/projects/project-3.png",
 
     organization: "WSO2 Pvt Ltd",
@@ -295,7 +295,7 @@ export const PROJECTS = [
     ],
   },
    {
-    title: "BeFit: Fitness Tracker Application",
+    title: "BeFit: Fitness Tracker App",
     description:
       "Implemented a responsive mobile application that tracks fitness habits and challenges. Designed an intuitive user interface to enhance usability and encourage consistent user engagement with seamless features",
     image:"/projects/bfit.png",
@@ -399,7 +399,7 @@ export const PROJECTS = [
   {
     title: "3D-Personal Portfolio Website",
     description:
-      "Developed a Three.js based 3D portfolio, displaying my work and skills. Implemented interactive 3D elements and smooth animations to create an engaging user experience, showcasing my projects and skills in a visually appealing manner with a focus on performance and responsiveness.",
+      "Developed a Three.js based 3D portfolio, displaying my work and skills and implemented interactive 3D elements and smooth animations to create an engaging user experience. The project showcases my projects and skills in a visually appealing manner with a focus on performance and responsiveness.",
     image:"/projects/mm.jpg",
 
     organization: "Individual",
