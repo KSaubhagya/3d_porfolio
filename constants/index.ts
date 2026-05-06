@@ -219,14 +219,14 @@ export const PROJECTS = [
     title: "Net Insights Application ",
     description:
       "Developed a full-stack application that analyzes employee network logs to gain insights and real-time floor counts for leadership groups, reducing reporting latency. Designed and integrated scalable microservices and APIs to ensure efficient data processing and system performance.",
-    image:"/projects/project-3.png",
+    image:"/projects/net.png",
 
     organization: "WSO2 Pvt Ltd",
     category: "Intern Project · WSO2",
 
     overview:
       [
-  "-Engineered analyzing network log datasets and producing real-time occupancy intelligence, documented system requirements, workflows for streamlined data processing",
+  "- Engineered analyzing network log datasets and producing real-time occupancy intelligence, documented system requirements, workflows for streamlined data processing",
   "- Architected and delivered an end-to-end production system independently using Ballerina microservices and custom APIs, handling full lifecycle from design to deployment",
   "- Engineered data pipelines to ingest and unify distributed WiFi log data, enabling real-time employee location queries and floor-wise occupancy aggregation",
   "- Implemented secure, role-based access control with Asgardeo, exposing restricted search capabilities and operational dashboards for leadership use"
@@ -321,7 +321,7 @@ export const PROJECTS = [
    {
     title: "Online Shopping System",
     description:
-      "Collaborated on a full-stack, fully functional e-commerce platform. Contributed to building RESTful APIs and integrating frontend components with backend services for seamless user experience",
+      "Collaborated on a full-stack, fully functional e-commerce platform, contributed to building RESTful APIs and integrating frontend components. Integration of backend services for seamless user experience",
     image:"/projects/blog123.png",
 
     organization: "University of Moratuwa",
@@ -400,7 +400,7 @@ export const PROJECTS = [
     title: "3D-Personal Portfolio Website",
     description:
       "Developed a Three.js based 3D portfolio, displaying my work and skills and implemented interactive 3D elements and smooth animations to create an engaging user experience. The project showcases my projects and skills in a visually appealing manner with a focus on performance and responsiveness.",
-    image:"/projects/mm.jpg",
+    image:"/projects/port.png",
 
     organization: "Individual",
     category: "Individual project",
@@ -428,65 +428,65 @@ export const CERTIFICATIONS = [
    {
     title: "MoraXreme 9.0 Hackthon",
     description:
-      'hackathon',
+      'Hackathon organized by the University of Moratuwa.',
     image: "/certifications/c2.png",
-    link: "https://example.com",
+    link: "https://www.linkedin.com/feed/update/urn:li:activity:7260291218033565696/",
   },
   {
     title: "HackMoral 6.0 Hackathon",
     description:
-      'Hackthon.',
+      'Hackathon organized by Faculty of Information Technology, University of Moratuwa.',
     image: "/certifications/c3.png",
-    link: "https://example.com",
+    link: "https://www.linkedin.com/feed/update/urn:li:activity:7243590849131913216/",
   },
   {
     title: "Revolux 3.0 Designathon",
     description:
-      'Hackathon',
+      'Designathon by AIESEC in University of Colombo in Collaboration with IEEE Student Branch',
     image: "/certifications/c1.png",
-    link: "https://example.com",
+    link: "https://www.linkedin.com/in/kavindi-saubhagya/details/certifications/",
   },
   {
     title: "Machine Learning Explainability - Kaggle",
     description:
-      'Hackathon',
+      'Issued by Kaggle, this certificate validates proficiency in interpreting and explaining machine learning models.',
     image: "/certifications/c4.png",
-    link: "https://example.com",
+    link: "https://www.kaggle.com/learn/certification/ksaubhagya/machine-learning-explainability",
   },
   {
     title: "Predictive Modeling Fundamentals I",
     description:
-      'Hackathon',
+      'Issued by IBM SkillsBuild and validates foundational skills in predictive modeling, including data preprocessing, model selection, and evaluation techniques.',
     image: "/certifications/c5.png",
-    link: "https://example.com",
+    link: "https://courses.skillsbuild.skillsnetwork.site/certificates/5c09d41bf74e47e7bb67ef06ec15231e",
   },
   {
     title: "Intermediate Machine Learning - Kaggle",
     description:
-      'Certification',
+      'Issued by Kaggle, this certificate validates intermediate proficiency in machine learning, covering advanced algorithms, feature engineering.',
     image: "/certifications/c6.png",
-    link: "https://example.com",
+    link: "https://www.kaggle.com/learn/certification/ksaubhagya/intermediate-machine-learning",
   },
    {
     title: "Deep Learning with TensorFlow",
     description:
-      'Hackathon',
+      'Issued by IBM SkillsBuild, this certificate validates proficiency in deep learning concepts and practical implementation using TensorFlow.',
     image: "/certifications/c7.png",
-    link: "https://example.com",
+    link: "https://courses.skillsbuild.skillsnetwork.site/certificates/5152a858ed4340cfa64ab154dc05a2c0",
   },
   {
     title: "Create Your Own AI Agent with h2oGPTe",
     description:
-      'Hackathon',
+      'Issued by H2O.ai, this certificate validates the ability to create AI agents using h2oGPTe, demonstrating skills in NLP and AI development.',
     image: "/certifications/c8.png",
-    link: "https://example.com",
+    link: "https://www.linkedin.com/in/kavindi-saubhagya/details/certifications/",
   },
   {
     title: "User Experience Design Professional Certification",
     description:
-      'Certification',
+      'Institute of Management, Technology and Finance',
     image: "/certifications/c9.png",
-    link: "https://example.com",
+    link: "https://edu.gtf.pt/pluginfile.php/1/tool_certificate/issues/1770242521/2153357161KS.pdf",
   },
 ];
 

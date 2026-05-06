@@ -50,7 +50,7 @@ export const HeroContent = () => {
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          Learn more
+          Hire Me
         </motion.a>
       </div>
 
@@ -65,7 +65,7 @@ export const HeroContent = () => {
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 650px"
           draggable={true}
-          className="select-none relative object-contain !w-auto !h-auto max-w-[280px] sm:max-w-[350px] md:max-w-[450px] lg:max-w-[550px]"
+          className="select-none relative object-contain !w-auto !h-auto max-w-[280px] sm:max-w-[350px] md:max-w-[450px] lg:max-w-[550px] ml-auto mr-0"
           priority
         />
 
@@ -76,12 +76,12 @@ export const HeroContent = () => {
           width={200}
           height={200}
           className="absolute 
-  top-1/2 left-2 -translate-x-2 -translate-y-1/2
-  md:left-1 md:-translate-x-1
-  lg:left-1/2 lg:-translate-x-1/2
-  w-32 h-32 md:w-48 md:h-48 lg:w-64 lg:h-64
-  rounded-full object-cover
-  shadow-2xl"
+    top-1/2 right-4 -translate-y-1/2
+    md:right-10
+    lg:right-20
+    w-32 h-32 md:w-48 md:h-48 lg:w-64 lg:h-64
+    rounded-full object-cover
+    shadow-2xl"
         />
       </motion.div>
 
