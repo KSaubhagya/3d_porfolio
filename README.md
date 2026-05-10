@@ -1,5 +1,5 @@
 
-## :bangbang: Folder Structure
+## Folder Structure
 
 
 <!--- FOLDER_STRUCTURE_START --->
