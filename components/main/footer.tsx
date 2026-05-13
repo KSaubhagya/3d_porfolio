@@ -1,7 +1,5 @@
 import Link from "next/link";
 
-import { FOOTER_DATA } from "@/constants";
-
 export const Footer = () => {
   return (
     <div className="w-full h-full bg-purple-600/20 text-gray-200 shadow-lg p-[15px]">
