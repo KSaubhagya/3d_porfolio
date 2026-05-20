@@ -26,7 +26,7 @@ space-portfolio/
   |- public/
   |- .eslintrc.json
   |- .gitignore
-  |- eslint.config.mjs
+  |- eslint.config.mjs 
   |- netlify.toml
   |- next.config.js
   |- package-lock.json
