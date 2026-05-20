@@ -47,7 +47,7 @@ space-portfolio/
 
 3. Open terminal in root directory. Run `npm install --legacy-peer-deps` or `yarn install --legacy-peer-deps`.
 
-4. Now app is fully configured 👍 and you can start using this app using `npm run dev` or `yarn dev`.
+4. Now app is fully configured 👍 and you can start using this app using `npm run dev` or `yarn dev`
 
 
 ## :gear: Tech Stack
