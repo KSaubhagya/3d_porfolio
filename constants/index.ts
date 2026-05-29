@@ -155,7 +155,7 @@ export const BACKEND_SKILL = [
   },
   {
     skill_name: "Choreo",
-    image: "choreo.png",
+    image: "choreo.PNG",
     width: 50,
     height: 50,
   },
